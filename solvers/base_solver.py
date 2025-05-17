@@ -19,6 +19,7 @@ from solvers.complex_environments.and_or_search import and_or_search
 # from solvers.complex_environments.belief_state import belief_state_search
 # from solvers.complex_environments.partically_observation import sensorless_belief_state_search
 from solvers.reinforcement_learning.q_learning import q_learning
+from solvers.CSPs.min_conflicts import min_conflicts
 
 class PuzzleSolver:
     def __init__(self, start_state, method):
@@ -66,6 +67,8 @@ class PuzzleSolver:
         #     return sensorless_belief_state_search(self.start_state)
         # elif self.method == "Component Problem A*":
         #     return component_problem_a_star(self.start_state)
+        elif self.method == "Min-Conflicts":
+            return min_conflicts(self.start_state)
         elif self.method == "Q_Learning":
             return q_learning(self.start_state)
         return []

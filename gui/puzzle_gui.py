@@ -12,7 +12,7 @@ class PuzzleGUI:
         self.root.geometry("1400x800")
         self.root.configure(bg="#2C3E50")
         self.initial_state = [[2, 6, 5], [0, 8, 7], [4, 3, 1]]
-        #self.initial_state = [[1, 2, 3], [4, 0, 5], [7, 8, 6]]
+        #self.initial_state = [[1, 2, 3], [4, 5, 0], [7, 8, 6]]
         self.state = [row[:] for row in self.initial_state]
         self.method = tk.StringVar(value="BFS")
         self.steps = []
@@ -88,7 +88,7 @@ class PuzzleGUI:
         tk.Label(control_frame, text="Chọn phương pháp:", font=("Arial", 12, "bold"), fg="white", bg="#2C3E50").pack(side=tk.LEFT, padx=10)
         methods = ["BFS", "DFS", "IDS", "UCS", "Greedy", "A*", "IDA*", "Hill Climbing", "Steepest Ascent", 
                    "Stochastic Hill", "Simulated Annealing", "Beam Search", "AND - OR Search", "Genetic" 
-                   , "Backtracking", "Backtracking with Forward Checking", "Q_Learning" ]
+                   , "Backtracking", "Backtracking with Forward Checking", "Min-Conflicts", "Q_Learning" ]
         method_combo = ttk.Combobox(control_frame, textvariable=self.method, values=methods, font=("Arial", 10), state="readonly", width=20)
         method_combo.set("BFS")
         method_combo.pack(side=tk.LEFT, padx=10)
