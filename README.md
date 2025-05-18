@@ -42,7 +42,7 @@ Tập trung vào 8-Puzzle 2D với trạng thái ban đầu do người dùng nh
 
 Sử dụng Python 3.12 và Tkinter để xây dựng giao diện trực quan, cho phép quan sát quá trình tìm kiếm và mô phỏng các bước di chuyển, đặc biệt trong các môi trường phức tạp như Partially Observable và Sensorless.
 
-**Đối tượng: **
+**Đối tượng:**
 
 Sáu nhóm thuật toán tìm kiếm được chọn do sự đa dạng về chiến lược, ưu/nhược điểm, và khả năng áp dụng cho 8-Puzzle – một bài toán tìm đường với không gian trạng thái lớn và nhiều ràng buộc di chuyển.
 
@@ -400,7 +400,7 @@ Quản lý: .gitignore cấu hình tệp bị bỏ qua trong Git.
 
 **Demo thuật toán Steepest_Ascent**
 
-![Steepest_Ascent_](Video_gif/Steepest_Ascent_.gif)
+![Steepest_Ascent_](Video_gif/Steepest_Ascent.gif)
 
 **Demo thuật toán Stochastic_Hill**
 
@@ -422,7 +422,7 @@ Quản lý: .gitignore cấu hình tệp bị bỏ qua trong Git.
 
 **Demo thuật toán Backtracking**
 
-![Backtracking](Video_gif/Backtraacking.gif)
+![Backtracking](Video_gif/Backtracking.gif)
 
 **Demo thuật toán Backtracking with Foward Checking**
 
