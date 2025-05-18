@@ -649,3 +649,5 @@ Russell, S. J., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach 
 Tkinter Documentation. https://docs.python.org/3/library/tkinter.html. [Truy cập 13/05/2025].
 
 GitHub Repository. https://github.com/yourusername/8PuzzleAI. [Truy cập 15/05/2025].
+
+> *Tác giả: [Nguyễn Quốc Đạt MSSV: 23133015]*  
