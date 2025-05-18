@@ -328,9 +328,9 @@ Tìm kiếm trong môi trường phức tạp: Sử dụng tập hợp trạng t
 
 Sơ đồ khối hệ thống 8-Puzzle
 
-![Sơ đồ khối hệ thống](images/HeThong1.png)
+![Sơ đồ khối hệ thống](images/Hethong1.png)
 
-![Sơ đồ khối hệ thống](images/HeThong2.png)
+![Sơ đồ khối hệ thống](images/Hethong2.png)
 
 Input: Trạng thái ban đầu từ người dùng hoặc sinh ngẫu nhiên, nhập qua giao diện (gui).
 
